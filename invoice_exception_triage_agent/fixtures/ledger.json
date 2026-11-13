@@ -1,0 +1,14 @@
+{
+  "INV-1003": {
+    "invoice_id": "INV-1003",
+    "exists": true,
+    "posted_status": "POSTED",
+    "note": "Already recorded against PO-5003 on 2026-10-01"
+  },
+  "INV-DUPLICATE-DEMO": {
+    "invoice_id": "INV-DUPLICATE-DEMO",
+    "exists": true,
+    "posted_status": "POSTED",
+    "note": "Historical duplicate control row"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "invoice_id": "INV-1002",
+  "supplier": "Nordic Shelf Supplies GmbH",
+  "po_reference": "PO-5002",
+  "currency": "EUR",
+  "lines": [
+    {
+      "sku": "SKU-A",
+      "quantity": "100",
+      "unit_price": "20.00",
+      "page_number": 1,
+      "supporting_text": "SKU-A  Retail shelf bracket A  Qty 100  Unit EUR 20.00  Net EUR 2000.00"
+    }
+  ],
+  "source_pdf": "invoices/INV-1002.pdf",
+  "extraction_mode": "offline_fixture"
+}

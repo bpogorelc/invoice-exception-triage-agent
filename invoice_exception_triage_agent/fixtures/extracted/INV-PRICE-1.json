@@ -1,0 +1,17 @@
+{
+  "invoice_id": "INV-PRICE-1",
+  "supplier": "Alpine Pack Co",
+  "po_reference": "PO-9001",
+  "currency": "EUR",
+  "lines": [
+    {
+      "sku": "SKU-B",
+      "quantity": "50",
+      "unit_price": "12.00",
+      "page_number": 1,
+      "supporting_text": "SKU-B  Corrugated shipper B  Qty 50  Unit EUR 12.00  Net EUR 600.00"
+    }
+  ],
+  "source_pdf": null,
+  "extraction_mode": "offline_fixture"
+}

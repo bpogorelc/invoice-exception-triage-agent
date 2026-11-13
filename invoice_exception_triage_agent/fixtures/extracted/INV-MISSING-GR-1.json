@@ -1,0 +1,17 @@
+{
+  "invoice_id": "INV-MISSING-GR-1",
+  "supplier": "Alpine Pack Co",
+  "po_reference": "PO-9002",
+  "currency": "EUR",
+  "lines": [
+    {
+      "sku": "SKU-C",
+      "quantity": "40",
+      "unit_price": "5.00",
+      "page_number": 1,
+      "supporting_text": "SKU-C  Display card C  Qty 40  Unit EUR 5.00  Net EUR 200.00"
+    }
+  ],
+  "source_pdf": null,
+  "extraction_mode": "offline_fixture"
+}

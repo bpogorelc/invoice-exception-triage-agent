@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.adk/
+evaluation/remote_agent.json
+evaluation/remote_smoke_inv1002.json
+*.egg-info/
+dist/
+build/
+.DS_Store

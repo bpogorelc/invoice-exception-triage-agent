@@ -1,0 +1,42 @@
+{
+  "PO-5001": {
+    "gr_id": "GR-8001",
+    "po_number": "PO-5001",
+    "lines": [
+      {
+        "sku": "SKU-A",
+        "quantity_received": "100"
+      }
+    ]
+  },
+  "PO-5002": {
+    "gr_id": "GR-8002",
+    "po_number": "PO-5002",
+    "lines": [
+      {
+        "sku": "SKU-A",
+        "quantity_received": "80"
+      }
+    ]
+  },
+  "PO-5003": {
+    "gr_id": "GR-8003",
+    "po_number": "PO-5003",
+    "lines": [
+      {
+        "sku": "SKU-A",
+        "quantity_received": "100"
+      }
+    ]
+  },
+  "PO-9001": {
+    "gr_id": "GR-9001",
+    "po_number": "PO-9001",
+    "lines": [
+      {
+        "sku": "SKU-B",
+        "quantity_received": "50"
+      }
+    ]
+  }
+}

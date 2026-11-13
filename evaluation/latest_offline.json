@@ -1,0 +1,67 @@
+[
+  {
+    "run_label": "offline rules",
+    "invoice_id": "INV-1001",
+    "expected_status": "MATCHED",
+    "actual_status": "MATCHED",
+    "expected_reason": "CLEAN_MATCH",
+    "actual_reason": "CLEAN_MATCH",
+    "expected_amount": "0.00",
+    "actual_amount": "0.00",
+    "expected_owner": "AP Analyst",
+    "actual_owner": "AP Analyst",
+    "pass": true
+  },
+  {
+    "run_label": "offline rules",
+    "invoice_id": "INV-1002",
+    "expected_status": "RECEIPT_DISCREPANCY",
+    "actual_status": "RECEIPT_DISCREPANCY",
+    "expected_reason": "QTY_RECEIVED_SHORT",
+    "actual_reason": "QTY_RECEIVED_SHORT",
+    "expected_amount": "400.00",
+    "actual_amount": "400.00",
+    "expected_owner": "Receiving",
+    "actual_owner": "Receiving",
+    "pass": true
+  },
+  {
+    "run_label": "offline rules",
+    "invoice_id": "INV-1003",
+    "expected_status": "DUPLICATE_SUSPECTED",
+    "actual_status": "DUPLICATE_SUSPECTED",
+    "expected_reason": "DUPLICATE_INVOICE_ID",
+    "actual_reason": "DUPLICATE_INVOICE_ID",
+    "expected_amount": "\u2014",
+    "actual_amount": "\u2014",
+    "expected_owner": "Accounts Payable",
+    "actual_owner": "Accounts Payable",
+    "pass": true
+  },
+  {
+    "run_label": "offline rules",
+    "invoice_id": "INV-PRICE-1",
+    "expected_status": "PRICE_DISCREPANCY",
+    "actual_status": "PRICE_DISCREPANCY",
+    "expected_reason": "UNIT_PRICE_MISMATCH",
+    "actual_reason": "UNIT_PRICE_MISMATCH",
+    "expected_amount": "100.00",
+    "actual_amount": "100.00",
+    "expected_owner": "Purchasing",
+    "actual_owner": "Purchasing",
+    "pass": true
+  },
+  {
+    "run_label": "offline rules",
+    "invoice_id": "INV-MISSING-GR-1",
+    "expected_status": "INSUFFICIENT_EVIDENCE",
+    "actual_status": "INSUFFICIENT_EVIDENCE",
+    "expected_reason": "MISSING_GOODS_RECEIPT",
+    "actual_reason": "MISSING_GOODS_RECEIPT",
+    "expected_amount": "\u2014",
+    "actual_amount": "\u2014",
+    "expected_owner": "Accounts Payable",
+    "actual_owner": "Accounts Payable",
+    "pass": true
+  }
+]
